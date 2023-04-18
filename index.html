@@ -14,6 +14,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Courgette&family=Raleway:wght@200;400;900&display=swap"
     rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <script src="https://kit.fontawesome.com/0beb677ed6.js" crossorigin="anonymous"></script>
@@ -46,8 +47,7 @@
   <header id="start">
     <div class="hero__img">
       <div class="hero__text">
-        <h1 class="hero__heading">U Madzi</h1>
-        <p class="hero_text">Ryczówek, ul. Laski 11</p>
+        <p class="hero_text" data-aos="fade-up" >Ryczówek, ul. Laski 11</p>
       </div>
       <a href="#elementsbox"><i class="fas fa-chevron-down bounce-top "></i></a>
     </div>
@@ -94,27 +94,36 @@
       <div class="container">
         <div class="card-group location-carousel">
           <div class="card mx-3">
-            <img src="./img/landscape-g06484b411_1920.jpg" class="card-img-top" alt="...">
+            <img src="./img/landscape-g06484b411_1920.jpg" class="card-img-top"
+              alt="ścieżka polna z dwoma torami na samochód, zieleń i drzewo">
             <div class="card-body">
               <p class="card-text">Liczne ścieżki i lasy</p>
             </div>
           </div>
           <div class="card mx-3">
-            <img src="./img/castle-g2835d62d0_1920.jpg" class="card-img-top" alt="...">
+            <img src="./img/castle-g2835d62d0_1920.jpg" class="card-img-top" alt="zamek w mirowie, skały">
             <div class="card-body">
               <p class="card-text">Zamek w Mirowie</p>
             </div>
           </div>
           <div class="card mx-3">
-            <img src="./img/rocks-g8e35daf1e_1280.jpg" class="card-img-top" alt="...">
+            <img src="./img/rocks-g8e35daf1e_1280.jpg" class="card-img-top" alt="skały wapienne z roślinnością">
             <div class="card-body">
               <p class="card-text">Liczne skały wapienne</p>
             </div>
           </div>
           <div class="card mx-3">
-            <img src="./img/fencing-g583ae656f_1280.jpg" class="card-img-top" alt="...">
+            <img src="./img/fencing-g583ae656f_1280.jpg" class="card-img-top"
+              alt="zamek w ogrodzieńcu z kamienia wapiennego z flagą polski na jednej z wież">
             <div class="card-body">
               <p class="card-text">Zamek w Ogrodzieńcu</p>
+            </div>
+          </div>
+          <div class="card mx-3">
+            <img src="./img/desert-gfe34cfb67_1920.jpg" class="card-img-top"
+              alt="widok z góry na pustynię błędowską, widać piasek i las">
+            <div class="card-body">
+              <p class="card-text">Pustynia Błędowska</p>
             </div>
           </div>
         </div>
@@ -141,6 +150,17 @@
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="js/slick.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+
+      startEvent: 'DOMContentLoaded',
+      offset: 200,
+      once: true
+
+
+    });
+  </script>
   <script src="js/script.js"></script>
 </body>
 
