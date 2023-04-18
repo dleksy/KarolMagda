@@ -430,7 +430,7 @@ body {
 
 .location {
   height: 100vh;
-  background-image: url(/img/background-g4f9bed3ff_1920.jpg);
+  background-image: url(./img/background-g4f9bed3ff_1920.jpg);
   background-position: center;
   background-attachment: fixed;
   position: relative;
