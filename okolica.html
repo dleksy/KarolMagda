@@ -13,6 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Courgette&family=Raleway:wght@200;400;900&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <script src="https://kit.fontawesome.com/0beb677ed6.js" crossorigin="anonymous"></script>
@@ -43,7 +44,7 @@
 
         <div class="container">
 
-            <h2 class="area-title">W pobliżu</h2>
+            <h2 class="area-title" data-aos="fade-down">W pobliżu</h2>
             <div class="area-title-underline"></div>
             <div class="buttoncontainer d-flex justify-content-center"><a type="button" href="index.html"
                     class="contactBox__button-area">Powrót</a></div>
@@ -102,7 +103,7 @@
 
             <div class="row">
                 <div class="col-sm-6 text-center element">
-                    <h2 class="area-title-second">Gdzie można zjeść</h2>
+                    <h2 class="area-title-second" data-aos="fade-down">Gdzie można zjeść</h2>
                     <div class="area-underline"></div>
                     <p class="eat-element">Jurajski Młyn Chechło smażalnia ryb 6,2 km</p>
                     <p class="eat-element">Restauracja OPOKA Klucze 5 km</p>
@@ -110,7 +111,7 @@
                     <p class="eat-element">Francesco pizza, kebab Klucze 6,4 km</p>
                 </div>
                 <div class="col-sm-6 text-center shop element">
-                    <h2 class="area-title-second">Sklepy w okolicy</h2>
+                    <h2 class="area-title-second" data-aos="fade-down">Sklepy w okolicy</h2>
                     <div class="area-underline"></div>
                     <p class="shop-element">Supermarket DINO Kwaśniów Dolny 2,6 km</p>
                     <p class="shop-element">Market U Rudej Rodaki 2 km</p>
@@ -121,7 +122,7 @@
 
                 </div>
                 <div class="col-sm-12 text-center shop element">
-                    <h2>Pomoc medyczna</h2>
+                    <h2 data-aos="fade-down">Pomoc medyczna</h2>
                     <div class="area-underline"></div>
                     <p class="med-element-first">Niepubliczny zakład opieki medycznej</p>
                     <p class="med-element">Zawierciańska 14 , KluczeTelefon 32 642 84 13</p>
@@ -138,7 +139,7 @@
         </footer>
     </div>
 
-    
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
         integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
@@ -146,6 +147,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
         integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+
+            startEvent: 'DOMContentLoaded',
+            offset: 200,
+            once: true
+
+
+        });
+    </script>
 
     <script src="js/script.js"></script>
 </body>

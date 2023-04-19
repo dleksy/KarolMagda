@@ -14,6 +14,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Courgette&family=Raleway:wght@200;400;900&display=swap"
     rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <script src="https://kit.fontawesome.com/0beb677ed6.js" crossorigin="anonymous"></script>
@@ -45,7 +46,7 @@
     <div class="container">
       <div class="contactBox">
         <div class="contactBox__firstpart">
-          <h2 class="contactBox__title">Kontakt</h2>
+          <h2 class="contactBox__title" data-aos="fade-down">Kontakt</h2>
           <div class="contactBox__underline"></div>
         </div>
         <div class="contactBox__address">
@@ -80,4 +81,15 @@
     crossorigin="anonymous"></script>
 
   <script src="js/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+
+      startEvent: 'DOMContentLoaded',
+      offset: 200,
+      once: true
+
+
+    });
+  </script>
 </body>
