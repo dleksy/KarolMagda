@@ -515,6 +515,9 @@ footer p {
 }
 
 @media (max-width: 992px) {
+  .hero__img {
+    background-image: url(../img/domek-resized.jpg);
+  }
   .nav__items {
     display: none;
   }
